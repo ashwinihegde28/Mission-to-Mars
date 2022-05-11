@@ -33,6 +33,6 @@ Created webpage containing all the information collected in this module as well 
 ## Two additional Bootstrap 3 components are used to style the webpage
 1. Changed the button color and its background.
 2. Added a tooltip that says Click Me!, when the user hovers over the Scrape button.
-3. Changed the CSS for the table. <br>
+3. Changed the CSS for the facts table. <br>
 ![CSS 1](https://github.com/ashwinihegde28/Mission-to-Mars/blob/main/Challenge/resourse/styleChange1.PNG) <br>
 ![CSS 2](https://github.com/ashwinihegde28/Mission-to-Mars/blob/main/Challenge/resourse/styleChange2.PNG) <br>
