@@ -26,10 +26,13 @@ This project adjusts the current web app to include all four of the Mars’s hem
 
 ## Update the Web App with Mars’s Hemisphere Images and Titles
 Created webpage containing all the information collected in this module as well as the full-resolution image and title for each hemisphere image. <br>
+![dataBaseConfirmation](https://github.com/ashwinihegde28/Mission-to-Mars/blob/main/Challenge/resourse/MonoDBStatus.PNG) <br>
 ![Final Output](https://github.com/ashwinihegde28/Mission-to-Mars/blob/main/Challenge/resourse/all_hemisphere_image.PNG) <br>
 
 
 ## Two additional Bootstrap 3 components are used to style the webpage
 1. Changed the button color and its background.
 2. Added a tooltip that says Click Me!, when the user hovers over the Scrape button.
-3. Changed the CSS for the table.
+3. Changed the CSS for the table. <br>
+![CSS 1](https://github.com/ashwinihegde28/Mission-to-Mars/blob/main/Challenge/resourse/styleChange1.PNG) <br>
+![CSS 2](https://github.com/ashwinihegde28/Mission-to-Mars/blob/main/Challenge/resourse/styleChange2.PNG) <br>
