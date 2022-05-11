@@ -11,12 +11,12 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="container" style="background-color:#AEB6BF;">
       <!-- Add Jumbotron to Header -->
-      <div class="jumbotron text-center">
+      <div class="jumbotron text-center" style="background-color:SkyBlue; border-color:beige !important;">
         <h1>Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
-        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button" title="Click me!" data-toggle="tooltip">Scrape New Data</a></p>
       </div>
 
       <!-- Add section for Mars News -->
@@ -48,24 +48,27 @@
         <div class="col-md-4">
           <!-- Mars Facts -->
           <div class="row" id="mars-facts">
-            <h4>Mars Facts</h4>
+            <h3>Mars Facts</h3>
+            <table class="table table-striped">
             {{ mars.facts | safe }}
+            </table>
           </div>
         </div>
       </div>
 
+      
       <!-- Section for Mars Hemispheres -->
       <div class="row" id="mars-hemispheres">
-        <div class="page-header">
-          <h2 class="text-center">Mars Hemispheres</h2>
+        <div class="page-header" style="height: 50px">
+          <h2 class="text-center">Mars Hemispheres</h2>          
         </div>
 
-        {% for hemisphere in mars.hemispheres %}
+        {% for hemisphere in mars.hemispheres_title %}        
         <div class="col-md-6">
           <div class="thumbnail">
             <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="...">
             <div class="caption">
-              <h3>{{hemisphere.title}}</h3>
+              <h3><b>{{hemisphere.title}}</b></h3>
             </div>
           </div>
         </div>
